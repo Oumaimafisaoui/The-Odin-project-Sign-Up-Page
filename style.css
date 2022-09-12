@@ -1,0 +1,170 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin : 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    background-color: rgb(17,39,37);
+}
+
+.content-left{
+    background-image: url(./images/img.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100vh;
+}
+
+.header{
+    margin-top: 30%;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(11, 20, 13, 0.3);
+    color : white;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+.content-right{
+    width: 50vw;
+    opacity: 0.5;
+    display:flex;
+}
+
+.parag{
+    margin: 2rem 2rem 2rem 2rem;
+    color:rgb(205, 132, 83);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 1.5px;
+    align-self: center;
+    margin-right: 50px
+}
+
+
+.table{
+    background-color: white;
+    opacity: 0.6;
+    width: 40vw;
+    height: 50vh;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    border-radius: 50px;
+    margin-left: 40px;
+     box-shadow: 0 10px rgb(205, 132, 83);
+}
+
+.form{
+    justify-content:space-around;
+    flex-direction: row;
+    align-items:center;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.form:nth-child(1)
+{
+    padding-top: 30px;
+}
+
+.logo{
+    display:block;
+    margin: 0 auto;
+    width:8%;
+    height: 7%;
+    padding-bottom: 20px;
+    margin-top: -19px;
+}
+
+button{
+    border-radius: 50px;
+    padding: 1px 1px 1px 1px;
+    width: 30%;
+    height: 10%;
+}
+
+button:hover{
+    border: 2px solid rgb(205, 132, 83);
+    background-color: rgb(205, 132, 83);
+    color: black;
+}
+
+footer{
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    color: rgb(185, 91, 28);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+input{
+    width: 50%;
+    height: 1.5rem;
+    border-radius: 50px;
+}
+
+label{
+    font-size: 1rem;
+}
+input:active{
+    border: 3px solid red;
+}
